@@ -2,7 +2,7 @@ Welcome to "Employee Churn Analysis Project". This is the project which I was be
 
 Also I learned what is Employee Churn. How it was different from customer churn, Exploratory data analysis and visualization of employee churn dataset using matplotlib and seaborn, model building and evaluation using python scikit-learn package.
 
-I was be able to implement classification techniques in Python. Using Scikit-Learn allowing to successfully make predictions with the Random Forest, Gradient Descent Boosting , KNN algorithms.
+I was be able to implement classification techniques in Python. Using Scikit-Learn allowing to successfully make predictions with the Random Forest, Gradient Descent Boosting, KNN algorithms.
 
 At the end of the project, I had the opportunity to deployed my model using Streamlit.
 
@@ -13,16 +13,17 @@ The HR dataset has 14,999 samples. In the given dataset, I have two types of emp
 
 I could describe 10 attributes in detail as:
 
-satisfaction_level: It is employee satisfaction point, which ranges from 0-1.
-last_evaluation: It is evaluated performance by the employer, which also ranges from 0-1.
-number_projects: How many of projects assigned to an employee?
-average_monthly_hours: How many hours in averega an employee worked in a month?
-time_spent_company: time_spent_company means employee experience. The number of years spent by an employee in the company.
-work_accident: Whether an employee has had a work accident or not.
-promotion_last_5years: Whether an employee has had a promotion in the last 5 years or not.
-Departments: Employee's working department/division.
-Salary: Salary level of the employee such as low, medium and high.
-left: Whether the employee has left the company or not.
+satisfaction_level: It is employee satisfaction point, which ranges from 0-1.<br>
+last_evaluation: It is evaluated performance by the employer, which also ranges from 0-1.<br>
+number_projects: How many of projects assigned to an employee?<br>
+average_monthly_hours: How many hours in averega an employee worked in a month?<br>
+time_spent_company: time_spent_company means employee experience. The number of years spent by an employee in the company.<br>
+work_accident: Whether an employee has had a work accident or not.<br>
+promotion_last_5years: Whether an employee has had a promotion in the last 5 years or not.<br>
+Departments: Employee's working department/division.<br>
+Salary: Salary level of the employee such as low, medium and high.<br>
+left: Whether the employee has left the company or not.<br>
+
 First of all, to observe the structure of the data, outliers, missing values and features that affect the target variable, must use exploratory data analysis and data visualization techniques.
 
 Then, must perform data pre-processing operations such as Scaling and Label Encoding to increase the accuracy score of Gradient Descent Based or Distance-Based algorithms. perform Cluster Analysis based on the information obtain during exploratory data analysis and data visualization processes.
